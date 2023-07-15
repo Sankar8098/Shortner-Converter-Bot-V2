@@ -7,13 +7,13 @@ load_dotenv()
 
 
 # Mandatory variables for the bot to start
-API_ID = int(os.getenv("API_ID", "Your Api Id"))
-API_HASH = os.environ.get("API_HASH", "Your Api Hash")
+API_ID = int(os.getenv("API_ID", "23990433"))
+API_HASH = os.environ.get("API_HASH", "e6c4b6ee1933711bc4da9d7d17e1eb20")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "Bot Token")
-ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("Owner Id")] if os.environ.get("ADMINS") else []
+ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("5821871362")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
-DATABASE_URL = os.getenv("DATABASE_URL", "Monfo url") 
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://nakflixbot:alpha3720@cluster0.qgybxbu.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "Owner Id")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 ADMINS.append(Id Owned Id)
