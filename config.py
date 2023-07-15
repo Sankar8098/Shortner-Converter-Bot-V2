@@ -14,7 +14,7 @@ ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("5821871362")] 
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://nakflixbot:alpha3720@cluster0.qgybxbu.mongodb.net/?retryWrites=true&w=majority") 
-OWNER_ID =  int(os.environ.get("OWNER_ID", "Owner Id")) 
+OWNER_ID =  int(os.environ.get("OWNER_ID", "5821871362")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 ADMINS.append(Id Owned Id)
 #  Optionnal variables
