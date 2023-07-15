@@ -15,8 +15,8 @@ ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://nakflixbot:alpha3720@cluster0.qgybxbu.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "5821871362")) 
-ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(Id Owned Id)
+ADMINS.append(5821871362) if OWNER_ID not in ADMINS else []
+ADMINS.append(5821871362)
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001870015374")) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "SK_MoviesOffl") # For Force Subscription
