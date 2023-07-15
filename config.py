@@ -12,7 +12,7 @@ API_HASH = os.environ.get("API_HASH", "e6c4b6ee1933711bc4da9d7d17e1eb20")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "6390467508:AAEPjEY6IZbkAHx6LtGx3PYiX8J_A-EtNPY")
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("5821871362")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "nakflixbot")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://nakflixbot:alpha3720@cluster0.qgybxbu.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "5821871362")) 
 ADMINS.append(5821871362) if OWNER_ID not in ADMINS else []
