@@ -1,6 +1,8 @@
-from motor.motor_asyncio import AsyncIOMotorClient
-from config import DATABASE_URL, DATABASE_NAME
+# Don't Edit
 
+from motor.motor_asyncio import *
+from config import *
+from domainers import *
 client = AsyncIOMotorClient(DATABASE_URL)
 db = client[DATABASE_NAME]
 col = db["users"]
@@ -12,13 +14,13 @@ async def get_user(user_id):
     if not user:
         res = {
             "user_id": user_id,
-            "method":"Tnlinks",
+            "method":"dalink",
             "shortener_api": None,
             "mdisk_api": None,
             "header_text": "",
             "footer_text": "",
             "username": None,
-            "base_site": "Tnlinks.in",
+            "base_site": "dalink.in",
             "banner_image": None,
             "is_banner_image": True,
             "is_username": True,
