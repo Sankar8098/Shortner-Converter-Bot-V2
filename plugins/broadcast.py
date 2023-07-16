@@ -31,7 +31,7 @@ async def broadcast_handler(c:Client, m:Message):
 
 async def send_msg(user_id, message):
     try:
-        if BROADCAST_AS_COPY == "False":
+        if BROADCAST_AS_COPY == "True":
             await message.forward(chat_id=user_id)
         elif BROADCAST_AS_COPY == "True":
             await message.copy(chat_id=user_id)
