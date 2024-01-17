@@ -1,5 +1,4 @@
-validators
-pyrogram
+Pyrogram 2.0.63
 tgcrypto
 pyshorteners
 aiohttp
@@ -12,7 +11,6 @@ pyshortner
 aiohttp==3.8.1
 pymongo[srv]==3.12.3
 motor==2.5.1
-Pyrogram==2.0.30
 TgCrypto==1.2.3
 PyBypass==2.0.1
 mdisky
