@@ -7,3 +7,4 @@ aiofiles
 dnspython
 python-dotenv
 domainers
+pyshortner
